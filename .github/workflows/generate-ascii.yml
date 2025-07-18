@@ -19,7 +19,7 @@ jobs:
         - name: Test File Exits
           run:  grep -i "dragon" dragon.txt
 
-        - name: Read File
+        - name: Read Files
           run: cat dragon.txt
 
         - name: List Repo Files
